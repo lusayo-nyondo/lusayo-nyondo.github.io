@@ -1,0 +1,82 @@
+{
+  "projectName": "Lusayo Nyondo Portfolio",
+  "framework": "Next.js (App Router)",
+  "language": "TypeScript + React",
+  "styling": "Tailwind CSS",
+  "build": "Static export via next build",
+  "routing": {
+    "home": "/",
+    "research": "/research",
+    "publications": "/publications",
+    "projects": "/projects";
+    "projectShowcase": "/project-showcase",
+    "workExperience": "/work-experience",
+    "playground": "/playground",
+    "resume": "/resume",
+    "resumeRole": "/resume/[role]"
+  },
+  "contentSources": {
+    "settings": "content/settings.json",
+    "projects": "content/projects.json",
+    "experience": "content/experience.json",
+    "publications": "content/publications.json",
+    "research": "content/research.json",
+    "resume": [
+      "content/resume/super.json",
+      "content/resume/roles.json"
+    ]
+  },
+  "notableComponents": [
+    "src/components/Navbar.tsx",
+    "src/components/Footer.tsx",
+    "src/components/PublicationCard.tsx",
+    "src/components/ProjectCard.tsx",
+    "src/components/ResumeView.tsx",
+    "src/components/ResearchCard.tsx"
+  ],
+  "pages": [
+    "src/app/page.tsx",
+    "src/app/publications/page.tsx",
+    "src/app/research/page.tsx",
+    "src/app/projects/page.tsx",
+    "src/app/project-showcase/page.tsx",
+    "src/app/work-experience/page.tsx",
+    "src/app/playground/page.tsx",
+    "src/app/playground/[slug]/page.tsx",
+    "src/app/resume/page.tsx",
+    "src/app/resume/[role]/page.tsx",
+    "src/app/layout.tsx"
+  ],
+  "data": {
+    "hashnode": "content/settings.json: hashnodeHost",
+    "publicationsMergedFrom": ["Hashnode posts", "content/publications.json"],
+    "researchSchema": {
+      "id": "string",
+      "title": "string",
+      "authors": "string[]?",
+      "venue": "string?",
+      "year": "number?",
+      "status": "\"preprint\"|\"published\"|\"in-review\"|\"thesis\"?",
+      "url": "string?",
+      "pdfUrl": "string?",
+      "doi": "string?",
+      "abstract": "string?"
+    }
+  },
+  "nav": {
+    "usesComponent": "src/components/Navbar.tsx",
+    "labels": [
+      "Project Showcase",
+      "Work Experience",
+      "Research",
+      "Writing & Videos",
+      "UI Playground",
+      "Resume"
+    ]
+  },
+  "notes": [
+    "Publications page is now labeled 'Writing & Videos' but lives at /publications for URL stability.",
+    "Research page is static, reads from content/research.json and uses ResearchCard.",
+    "Strict TS is enabled; avoid any."
+  ]
+}

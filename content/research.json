@@ -1,0 +1,14 @@
+[
+  {
+    "id": "paper-rl-vision-2024",
+    "title": "Sample: Reinforcement Learning for Vision Transformers",
+    "authors": ["L. Nyondo", "A. Collaborator"],
+    "venue": "ICLR Workshop",
+    "year": 2024,
+    "status": "preprint",
+    "url": "https://arxiv.org/abs/0000.00000",
+    "pdfUrl": "https://arxiv.org/pdf/0000.00000.pdf",
+    "doi": "",
+    "abstract": "This is a placeholder abstract. Replace with a short summary of your work."
+  }
+]

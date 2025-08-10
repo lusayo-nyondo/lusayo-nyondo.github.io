@@ -31,3 +31,16 @@ export type Publication = {
   platform?: string;
   brief?: string;
 };
+
+export type ResearchItem = {
+  id: string;
+  title: string;
+  authors?: string[];
+  venue?: string; // e.g., conference/journal name
+  year?: number;
+  status?: "preprint" | "published" | "in-review" | "thesis";
+  url?: string; // canonical page
+  pdfUrl?: string; // direct PDF link
+  doi?: string;
+  abstract?: string;
+};
