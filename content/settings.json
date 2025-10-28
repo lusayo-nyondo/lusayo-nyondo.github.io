@@ -1,8 +1,8 @@
 {
   "name": "Lusayo Nyondo",
   "title": "Software Engineer",
-  "tagline": "Python (Django/FastAPI) • TypeScript (Next.js/React/Node) • Dart (Flutter) • Java (Kafka/Flink)",
-  "summary": "Software Engineer with strong experience across web, mobile, desktop, and data engineering. Comfortable building resilient systems with Django, FastAPI, Next.js/React, Flutter, and real-time data pipelines on Kafka/Flink/Airflow.",
+  "tagline": "Python (Django/FastAPI/AI Integrations) • TypeScript (NextJS/React/EthersJS) • Dart (Flutter) • Java (Kafka/Flink) • Solidity (Foundry/OpenZepelin)",
+  "summary": "Versatile Software Engineer & AI Integrator skilled in building end-to-end resilient systems across diverse domains. Expertise includes high-performance backend monoliths and micro-services (Django, FastAPI), modern user experiences (Next.js, Flutter), and deploying GenAI solutions via OpenAI and Google APIs. These systems are underpinned by scalable data architecture (Kafka, Flink) and secured using Weights & Biases for robust MLOps. Most recently, focused on secure, auditable decentralized applications (dApps) using Solidity, Forge, and OpenZeppelin best practices.",
   "email": "lusayohendy@gmail.com",
   "location": "",
   "social": {

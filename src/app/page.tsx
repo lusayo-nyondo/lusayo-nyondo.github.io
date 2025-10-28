@@ -10,7 +10,6 @@ export default function Home() {
       <p className="max-w-3xl opacity-90">{settings.summary}</p>
       <p className="text-sm opacity-70">{settings.tagline}</p>
       <div className="flex gap-3 mt-4">
-        <Link href="/project-showcase" className="rounded-md bg-foreground text-background px-4 py-2 text-sm">Project Showcase</Link>
         <Link href="/research" className="rounded-md border px-4 py-2 text-sm">Resume</Link>
       </div>
     </section>
