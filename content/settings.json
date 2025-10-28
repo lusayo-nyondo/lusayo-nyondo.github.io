@@ -1,8 +1,8 @@
 {
   "name": "Lusayo Nyondo",
   "title": "Software Engineer",
-  "tagline": "Python (Django/FastAPI/AI Integrations) • TypeScript (NextJS/React/EthersJS) • Dart (Flutter) • Java (Kafka/Flink) • Solidity (Foundry/OpenZepelin)",
-  "summary": "Versatile Software Engineer & AI Integrator skilled in building end-to-end resilient systems across diverse domains. Expertise includes high-performance backend monoliths and micro-services (Django, FastAPI), modern user experiences (Next.js, Flutter), and deploying GenAI solutions via OpenAI and Google APIs. These systems are underpinned by scalable data architecture (Kafka, Flink) and secured using Weights & Biases for robust MLOps. Most recently, focused on secure, auditable decentralized applications (dApps) using Solidity, Forge, and OpenZeppelin best practices.",
+  "tagline": "Python (Django/FastAPI/AI Integrations/Kafka/PyFlink) • TypeScript (Node/NextJS/React/EthersJS) • Dart (Flutter) • Solidity (Foundry/OpenZepelin)",
+  "summary": "Versatile Software Engineer & AI Integrator skilled in building end-to-end resilient systems across diverse domains. Expertise includes high-performance backend monoliths and micro-services (Django, FastAPI), modern user experiences (Next.js, Flutter), and deploying GenAI solutions via OpenAI and Google APIs. These systems are underpinned by scalable data architecture built on Python, leveraging Kafka and Flink for high-throughput stream processing and secured using Weights & Biases for robust MLOps. Most recently, focused on secure, auditable decentralized applications (dApps) using Solidity, Foundry, and OpenZeppelin best practices.",
   "email": "lusayohendy@gmail.com",
   "location": "",
   "social": {
